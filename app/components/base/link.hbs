@@ -1,0 +1,8 @@
+<LinkTo
+  @route={{@route}}
+  ...attributes
+  class='text-sm mx-2 font-md'
+  class={{if this.isActive 'text-secondary' 'text-primary hover:text-charcoal'}}
+>
+  {{yield}}
+</LinkTo>
